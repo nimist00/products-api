@@ -14,7 +14,7 @@ public class Product {
     }
     public Long getId() { return id; }
 
-    public String getName() { return name; }
+    public String getName() { return name; } //removing name causes it to not appear. only id and price did. There was nothing for it to call
 
     public double getPrice() { return price; }
 }
